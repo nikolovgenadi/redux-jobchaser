@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ES6",
+    "skipLibCheck": true,
+    "outDir": "./public/js",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "allowJs": true,
+
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
